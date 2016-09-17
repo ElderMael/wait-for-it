@@ -1,4 +1,4 @@
-This is a fork of vishnubob/wait-for-it to work in Alpine based Docker images. It was originally modified for use in RMS project images at the University of Calgary. Note that this fork of the script has more limited support for arguments than the original script.
+This is a fork of [vishnubob/wait-for-it](https://github.com/vishnubob/wait-for-it) to support Alpine based Docker images. It was originally modified for use in RMS project images at the University of Calgary. Note that this fork of the script has more limited support for arguments than the original script.
 
 `wait-for-it.sh` is a script that will wait on the availability of a host and TCP port.  It is useful for synchronizing the spin-up of interdependent services, such as linked docker containers.  Since it is a pure bash script, it does not have any external dependencies.
 
